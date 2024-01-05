@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { View, Text, Image } from 'react-native'
-import CustomButton from './CustomButton'
-import styles from './styles'
-import Footer from './footer'
-import Header from './header'
+import CustomButton from '../components/CustomButton'
+import styles from '../styles'
+import Footer from '../components/footer'
+import Header from '../components/header'
 import { Asset } from 'expo-asset'
 
 export default function FinalScreen({ changeScreen, params }) {

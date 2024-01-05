@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, Image, ActivityIndicator } from 'react-native'
-import CustomButton from './CustomButton'
-import styles from './styles'
-import Footer from './footer'
-import Header from './header'
+import CustomButton from '../components/CustomButton'
+import styles from '../styles'
+import Footer from '../components/footer'
+import Header from '../components/header'
 import { Asset } from 'expo-asset'
-import apiCall from './apiCall'
+import apiCall from '../apiCall'
 
 function checkAndFixAnswers(message) {
   for (const question of message.questions) {

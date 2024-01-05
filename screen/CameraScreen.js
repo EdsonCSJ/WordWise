@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { View, Text, Image, ActivityIndicator } from 'react-native'
 import * as ImagePicker from 'expo-image-picker'
 import axios from 'axios'
-import styles from './styles'
-import Footer from './footer'
-import Header from './header'
-import CustomButton from './CustomButton'
+import styles from '../styles'
+import Footer from '../components/footer'
+import Header from '../components/header'
+import CustomButton from '../components/CustomButton'
 
 export default function CameraScreen({ changeScreen, params }) {
   const [loading, setLoading] = useState(false)

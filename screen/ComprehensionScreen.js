@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, ScrollView, Modal } from 'react-native'
-import styles from './styles'
-import Footer from './footer'
-import Header from './header'
-import CustomButton from './CustomButton'
-import ProgressBar from './ProgressBar'
+import styles from '../styles'
+import Footer from '../components/footer'
+import Header from '../components/header'
+import CustomButton from '../components/CustomButton'
+import ProgressBar from '../components/ProgressBar'
 
 export default function ComprehensionScreen({ changeScreen, params }) {
   const [showTranslation, setShowTranslation] = useState(false)
