@@ -1,0 +1,42 @@
+{
+    "questions": [
+      {
+        "questionEn":
+          "Which footwear is commonly worn for athletic activities and has rubber soles?",
+        "questionTranslation":
+          "Qual tipo de calçado é comumente usado para atividades esportivas e possui solas de borracha?",
+        "answers": ["Sneakers", "Slippers", "Moccasins", "Heels", "Boots"],
+        "correctAnswer": "Sneakers"
+      },
+      {
+        "questionEn":
+          "What is the term for the part of your body that can be covered with makeup and expresses emotions?",
+        "questionTranslation":
+          "Qual é o termo para a parte do seu corpo que pode ser coberta com maquiagem e expressa emoções?",
+        "answers": ["Face", "Thigh", "Knee", "Footwear", "Wheel"],
+        "correctAnswer": "Face"
+      },
+      {
+        "questionEn":
+          "Which clothing item is typically worn on your lower body and is shorter than pants?",
+        "questionTranslation":
+          "Qual peça de roupa é normalmente usada na parte inferior do seu corpo e é mais curta do que calças?",
+        "answers": ["Shorts", "Shirt", "Sandal", "Moccasin", "Dress"],
+        "correctAnswer": "Shorts"
+      },
+      {
+        "questionEn": "What type of chair often has wheels and is used in offices?",
+        "questionTranslation":
+          "Que tipo de cadeira frequentemente tem rodas e é usada em escritórios?",
+        "answers": ["Dance", "Pivot", "Joy", "Office chair", "Stretch"],
+        "correctAnswer": "Office chair"
+      },
+      {
+        "questionEn": "Which part of your footwear helps you to walk comfortably?",
+        "questionTranslation":
+          "Qual parte do seu calçado ajuda você a andar confortavelmente?",
+        "answers": ["Heel", "Toe", "Sole", "Laces", "Insole"],
+        "correctAnswer": "Insole"
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+  "story": {
+    "english": "Sarah woke up early on a Saturday morning. The sun was shining, and she decided to go for a run. She put on her running shoes and headed to the park. As she jogged along the trail, she saw a friendly dog playing with a ball. Sarah stopped to pet the dog and threw the ball for him. They played for a while before she continued her run. After her workout, Sarah went to a cafe for a cup of coffee and enjoyed the rest of the day.",
+    "portuguese": "Sarah acordou cedo em uma manhã de sábado. O sol estava brilhando, e ela decidiu sair para correr. Ela calçou seus tênis de corrida e foi para o parque. Enquanto corria pela trilha, ela viu um cachorro amigável brincando com uma bola. Sarah parou para acariciar o cachorro e jogou a bola para ele. Eles brincaram por um tempo antes de Sarah continuar sua corrida. Depois do treino, Sarah foi a um café para tomar uma xícara de café e aproveitou o resto do dia."
+  },
+  "questions": [
+    {
+      "questionEn": "What did Sarah do after her run?",
+      "questionTranslation": "O que Sarah fez depois da corrida?",
+      "answers": [
+        "She went shopping at the mall.",
+        "She returned home and went to bed.",
+        "She visited a museum.",
+        "She went to a cafe for coffee.",
+        "She went for another run."
+      ],
+      "correctAnswer": "She went to a cafe for coffee."
+    },
+    {
+      "questionEn": "Why did Sarah stop during her run?",
+      "questionTranslation": "Por que Sarah parou durante sua corrida?",
+      "answers": [
+        "She was tired and needed a break.",
+        "She wanted to take a nap in the park.",
+        "She saw a squirrel in a tree.",
+        "She needed to tie her shoelaces.",
+        "She wanted to pet a friendly dog."
+      ],
+      "correctAnswer": "She wanted to pet a friendly dog."
+    },
+    {
+      "questionEn": "What was the weather like when Sarah woke up?",
+      "questionTranslation": "Como estava o tempo quando Sarah acordou?",
+      "answers": [
+        "It was raining heavily.",
+        "It was a cloudy day.",
+        "It was a sunny day.",
+        "It was snowing.",
+        "It was a windy day."
+      ],
+      "correctAnswer": "It was a sunny day."
+    }
+  ]
+}

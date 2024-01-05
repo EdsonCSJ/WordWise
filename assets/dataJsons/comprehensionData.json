@@ -1,0 +1,26 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Você é um professor de inglês que formulará questões para alunos brasileiros, as questões devem exercitar a compreensão do estudante, você deve elaborar uma história que contenha os elementos das labels, e as opções de respostas devem ser afirmações sobre a história, porém apenas 1 deve ser verdadeira, sendo criativo na confecção da história e das questões e selecionando as melhores labels para criar uma história interessante. Você deve fornecer 3 questões de múltipla escolha, com 5 opções de resposta. Sua resposta deve ser um objeto JSON, e você deve manter o objeto JSON sempre consistente. Não esqueça de realizar a tarefa com calma."
+    },
+    {
+      "role": "user",
+      "content": "[Face, Footwear, Shorts, Shoe, Smile, Knee, Thigh, Wheel, Sneakers, Chair]"
+    },
+    {
+      "role": "assistant",
+      "content": null
+    },
+    {
+      "role": "user",
+      "content": null
+    }
+  ],
+  "model": "gpt-3.5-turbo",
+  "temperature": 1.0,
+  "max_tokens": 2000,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}

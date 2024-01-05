@@ -4,7 +4,7 @@
     "slug": "WordWise",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/wordwiseLogo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reitraqw.WordWise"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/wordwiseLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.reitraqw.WordWise"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f4f45916-de25-4ae9-bec8-eac55889ff9a"
+      }
     }
   }
 }

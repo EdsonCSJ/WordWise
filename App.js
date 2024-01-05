@@ -1,20 +1,62 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import CameraScreen from './CameraScreen';
+import SelectScreen from './SelectScreen';
+import LearnScreen from './LearnScreen';
+import ComprehensionScreen from './ComprehensionScreen';
+import FinalScreen from './FinalScreen';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  const [currentScreen, setCurrentScreen] = useState('Camera');
+  const [params, setParams] = useState([]);
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  const changeScreen = (newScreen, newParams) => {
+    setParams(newParams);
+    setCurrentScreen(newScreen);
+  };
+
+
+  switch (currentScreen) {
+    case 'Camera':
+      return (
+        <CameraScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+    case 'Select':
+      return (
+        <SelectScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+    case 'Learn':
+      return (
+        <LearnScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+    case 'Comprehension':
+      return (
+        <ComprehensionScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+    case 'Final':
+      return (
+        <FinalScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+    default:
+      return (
+        <CameraScreen
+          changeScreen={changeScreen}
+          params={params}
+        />
+      );
+  }
+}

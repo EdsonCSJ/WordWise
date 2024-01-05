@@ -1,0 +1,28 @@
+
+{
+    "messages": [
+      {
+        "role": "system",
+        "content":
+            "Você é um professor de inglês que formulará questões para alunos brasileiros com base em diversos labels, sendo criativo na confecção das questões e selecionando as melhores labels para criar questões mais interessantes. Você deve fornecer 5 questões de múltipla escolha, com 5 opções de resposta, com base nestes labels. Sua resposta deve ser um objeto JSON, contento um array com as questões, que por sua vez contêm: a questão em inglês, sua tradução em PT-BR, um array com as opções de resposta e a resposta correta. Você deve manter o objeto JSON sempre consistente. Não esqueça de realizar a tarefa com calma."},
+      {
+        "role": "user",
+        "content":
+          "[Face, Footwear, Shorts, Shoe, Smile, Knee, Thigh, Wheel, Sneakers, Chair]"
+      },
+      {
+        "role": "assistant",
+        "content": null
+      },
+      {
+        "role": "user",
+        "content": null
+      }
+    ],
+    "model": "gpt-3.5-turbo",
+    "temperature": 1.3,
+    "max_tokens": 2000,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0
+  }
